@@ -4,6 +4,10 @@
 
 @import "base/animation";
 @import "base/base";
-@import "base/typography";
+@import "base/typograph";
 
-@import "";
+@import "componets/button";
+@import "componets/card";
+
+@import "layout/headers";
+@import "layout/footer";
