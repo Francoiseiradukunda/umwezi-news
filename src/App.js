@@ -1,8 +1,17 @@
 
 import './App.css';
-import './sass/main.scss';
+import './sass/main.scss'
+import Forest from './component/home';
+import Header from './component/header';
+import Importance from './pages/importance';
 function App() {
-  return <h1>hello world</h1>;
+  return (
+    <>
+    <Header/>
+<Forest/>
+<Importance/>
+ </> 
+ );
 
 };
 
