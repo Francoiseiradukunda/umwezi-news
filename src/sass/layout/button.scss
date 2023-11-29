@@ -1,0 +1,15 @@
+.btn{
+    @include boton(flex,center,center);
+
+    button{
+      background-color: brown;
+        border-radius: 1rem;
+      font-size: 1rem;
+
+       &:hover{
+        background-color: aquamarine;
+        color:black;
+       }
+
+    }
+}

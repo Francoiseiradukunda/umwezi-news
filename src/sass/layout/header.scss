@@ -1,0 +1,32 @@
+.nav{
+background-color: dimgray;
+        display: flex;
+    justify-content: space-between;
+box-shadow: 3px 3px rgb(255, 255, 255);
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    .logo{
+        margin-left: 3rem;
+     
+        img{
+            width: 70%;
+        }
+    };
+    .cat{
+padding: 1rem;
+   display: flex;
+      gap: 2rem;
+    };
+    .cat li{
+        align-items: center;
+        list-style-type:none;
+        text-transform: capitalize;
+       
+    };
+    .cat li a{
+       text-decoration: none; 
+       text-align: center 
+    }
+};

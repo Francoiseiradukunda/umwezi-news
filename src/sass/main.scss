@@ -1,14 +1,11 @@
-@import "abstract/extend";
-@import "abstract/mixins";
-@import "abstract/variables";
+@import "./abstract/mixins.scss";
 
-@import "base/animation";
-@import "base/base";
-@import "base/typograph";
 
-@import "componets/button";
-@import "componets/card";
-@import "componets/impo.scss";
+@import "./layout/header";
+@import "./layout/footer";
+@import "./layout/footer";
 
-@import "layout/headers";
-@import "layout/footer";
+@import "./base/wel";
+@import "./base/imp.scss";
+
+@import "./layout/button.scss";

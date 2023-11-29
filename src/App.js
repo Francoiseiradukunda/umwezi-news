@@ -1,17 +1,17 @@
+import React from 'react';
+import Header from './component/Header';
+import Welcome from './pages/home';
+import './sass/main.scss';
+import Important from './pages/impo';
 
-import './App.css';
-import './sass/main.scss'
-import Forest from './component/home';
-import Header from './component/header';
-import Importance from './pages/importance';
-import Conclusion from './pages/conclusion';
+
+
 function App() {
   return (
     <>
     <Header/>
-<Forest/>
-<Importance/>
-<Conclusion/>
+<Welcome/>
+<Important/>
  </> 
  );
 
