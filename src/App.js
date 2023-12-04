@@ -2,15 +2,17 @@
 import './App.css';
 import './sass/main.scss'
 import Forest from './component/home';
-import Header from './component/header';
-import Importance from './pages/importance';
+import Header from './component/Header';
+import Important from './pages/impo';
 import Conclusion from './pages/conclusion';
+import Effect from './pages/efect';
 function App() {
   return (
     <>
     <Header/>
 <Forest/>
-<Importance/>
+<Important/>
+<Effect/>
 <Conclusion/>
  </> 
  );
