@@ -2,16 +2,19 @@ import React from "react";
 function Conclusion(){
     return(
 <>
+<div className="conclusion-container">
+    <div className="cont">
 <h1>CONCLUSION</h1>
-<p>Currently, there is still beautiful earth that we can admire.
-     We can travel to different countries looking at the natural wonders.
-      If we continue exploiting the earth there will be nothing to look at apart from dead ecosystems,
-       That is not a world anyone would want to live in. Furthermore, 
-       as mentioned above nature provides us with resources some of which are finite. 
-       There will not be enough food or water for the human population in the future.
+<p>
+Environmental endangerment is a critical issue that demands urgent attention and comprehensive action. In conclusion, it is evident that human activities, such as deforestation, pollution, over-exploitation of natural resources, and the emission of greenhouse gases, have led to severe consequences for the planet's ecosystems and biodiversity.
 
-Anyway, the alternative to caring ends in our destruction and the extinction of every animal. 
-All those millions of years of evolution taking place, wiped out by a single species.</p>
+The consequences of environmental endangerment are far-reaching and include the loss of biodiversity, climate change, degradation of ecosystems, and threats to human health. Urgent and concerted efforts are required at individual, community, national, and global levels to mitigate these challenges and work towards sustainable solutions.
+
+Addressing environmental endangerment requires a shift towards sustainable practices, conservation of natural resources, and the promotion of green technologies. Additionally, international collaboration and the implementation of policies that prioritize environmental protection are crucial. Individuals, businesses, and governments must work together to adopt eco-friendly practices, reduce carbon footprints, and protect vulnerable ecosystems.
+
+It is imperative that we recognize the interconnectedness of all living organisms and ecosystems and acknowledge our responsibility to act as stewards of the environment. The choices we make today will shape the future of our planet, and by taking collective action, we can create a more sustainable and resilient world for generations to come.</p>
+</div>
+</div>
 </>
     )
 }
