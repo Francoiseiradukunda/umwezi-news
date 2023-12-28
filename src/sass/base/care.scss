@@ -1,6 +1,6 @@
 .care-cont{
     height: 80vh;
-    background-color: aquamarine;
+   
 }
 .cere par{
     h1{
@@ -11,12 +11,62 @@
 }
 }
 .par1{
-    background-color: deeppink;
+   
     display: flex;
-    gap: 5rem;
+    gap: 2rem;
+    padding: 1rem;
+   justify-content:space-evenly;
+  
+    p{
+        font-size: 1.4rem;
+    }
+    h3{
+        padding: .8rem;
+         text-align: center;
+    }
+}
+
+.par2{
+   
+    display: flex;
+    gap: 2rem;
     padding: 1rem;
     justify-content: space-between;
     p{
         font-size: 1.4rem;
+    }
+    h3{
+        padding: .8rem;
+        text-align: center;
+    }
+}
+
+.par3{
+  
+    display: flex;
+    gap: 2rem;
+    padding: 1rem;
+    justify-content: space-between;
+    p{
+        font-size: 1.4rem;
+    }
+    h3{
+        padding: .8rem;
+        text-align: center;
+    }
+}
+
+.par4{
+   
+    display: flex;
+    gap: 2rem;
+    padding: 1rem;
+    justify-content: space-between;
+    p{
+        font-size: 1.4rem;
+    }
+    h3{
+        padding: .8rem;
+        text-align: center;
     }
 }
