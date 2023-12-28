@@ -1,16 +1,16 @@
 
 import React from "react";
-import loose from "../assets/imagee/loose.png"
-import climate from "../assets/imagee/climate.png";
-import water from "../assets/imagee/water.png";
-import tree from "../assets/imagee/tree.png";
-import soil from "../assets/imagee/soil.png";
-import acid from "../assets/imagee/acid.png"
-import Button from "../component/button";
+// import loose from "../assets/imagee/loose.png"
+// import climate from "../assets/imagee/climate.png";
+// import water from "../assets/imagee/water.png";
+// import tree from "../assets/imagee/tree.png";
+// import soil from "../assets/imagee/soil.png";
+// import acid from "../assets/imagee/acid.png"
+// import Button from "../component/button";
 function Effect(){
 return(
     <>
-    <div className="effect-container">
+    {/* <div className="effect-container">
         <div className="hed-cont">
 <h1>EFFECT OF ENVIRONMENTAL DENGERING</h1>
         </div>
@@ -62,7 +62,7 @@ This causes ocean acidification, which can harm marine life, particularly organi
 </div>
     </div>
      <Button name="view more" className="eff"></Button>
-    </div>
+    </div> */}
    
     </>
 )
