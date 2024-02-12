@@ -8,6 +8,7 @@ import Conclusion from './pages/conclusion';
 import Effect from './pages/efect';
 import Care from './pages/care';
 import Header from './component/header';
+import MoreImportant from "./pages/moreImportant";
 function App() {
   return (
     <>
@@ -18,6 +19,7 @@ function App() {
     <Route path='/important' element={<Important/>}></Route>
     <Route path='/effect' element={<Effect/>}></Route>
     <Route path='/care' element={<Care/>}></Route>
+    <Route path='/moreImportant' element={<MoreImportant/>}></Route>
     <Route path='/conclusion' element={<Conclusion/>}></Route>
     </Routes>
    </Router>

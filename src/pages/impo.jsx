@@ -4,18 +4,21 @@ import planet from "../assets/image/planet.png";
 import Resource from "../assets/image/resource.png";
 import nature from "../assets/image/nuture.png";
 import home from "../assets/image/home.png";
-import obligation from "../assets/image/obligation.png";
+// import obligations from "../assets/image/obligations.png";
 import bio from "../assets/image/bio.png";
 import danger from "../assets/image/danger.png";
 import cool from "../assets/image/cool.png";
 import back from "../assets/image/back.png";
 import generation from "../assets/image/generation.png"
+import Header from "../component/header";
 function Important(){
     return(
         <>
+        <Header/>
         <div className="ipot">
+                <div className="twoo">
             <div className="par">
-        <h2>important to take care of our environmental</h2>
+        <h2 className="het">important to take care of our environmental</h2>
         </div>
         <Carousel autoplay="true" autoplaySpeed={1000} className="slider">
       <div className="pic-slider">
@@ -41,10 +44,10 @@ function Important(){
         <img src={home} alt="not found" className="home"/>
 </div>
 
-<div className="pic-slider">
+{/* <div className="pic-slider">
         <h3>05. Its our moral obligation</h3>
-        <img src={obligation} alt="not found" className="obligation"/>
-</div>
+        <img src={obligations} alt="not found" className="obligation"/>
+</div> */}
 
 <div className="pic-slider">
         <h3>06. Protect biodiversity</h3>
@@ -73,6 +76,8 @@ function Important(){
 
 
     </Carousel>
+    <p className="desc">on more deacription <a href="/MoreImportant">ViewMore</a></p>
+    </div>
         </div>
         </>
     )

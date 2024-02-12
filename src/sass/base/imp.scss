@@ -1,16 +1,24 @@
 .ipot{
-    height: 80vh;
-    background-image: linear-gradient(to left green,red,blue);
-    color: transparent;
-    background-clip: text;
+    height: 97vh;
+   background: url(https://images.pexels.com/photos/12809514/pexels-photo-12809514.jpeg?auto=compress&cs=tinysrgb&w=400);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
     .par h2{
         text-align: center;
-        font-size: 1.5rem;
+        font-size: 20px;
         text-transform: uppercase;
-        text-shadow: 1.2px 1.2px grey;
-        background-color: antiquewhite;
+       color: white;
+       padding: 20px;
+       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      
     } ;
     
+.twoo{
+    height: 100%;
+    background-color: rgba(0, 0, 255, 0.423);
+}
+
     .pic-slider{
         height: 100%;
         width: 100%;
@@ -24,7 +32,12 @@
         }
         h3{
             text-align: center;
-            font-size: large;
+           color: rgba(255, 255, 255, 0.812);
+           padding: 20px;
+           font-size: 30px;
+           font-family: 'Times New Roman', Times, serif;
+          
+           
         };
         .planet{
             width: 57%;
@@ -50,9 +63,10 @@
             border-radius: 2rem;
         };
         .bligation{
-            width: 50%;
-            height: 50vh;
+            width: 10%;
+            height: 10vh;
             margin-left: 25%;
+            background-color: red
         };
         .bio{
             width: 50%;
@@ -90,3 +104,27 @@
     }
     }
     
+
+    .desc{
+       
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        text-transform: capitalize;
+        color: white;
+        text-align: center;
+       
+        a{
+           background-color: rgba(0, 0, 0, 0.811);
+           color: white;
+           padding: 5px;
+           border-radius: 5px; 
+           text-decoration: none;
+           transition: all;
+           &:hover,
+           &:link{
+            background-color: white;
+            color: black;
+            transition: all 1s;
+           }
+        }
+    }
