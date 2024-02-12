@@ -17,7 +17,7 @@ function Important(){
             <div className="par">
         <h2>important to take care of our environmental</h2>
         </div>
-        <Carousel autoplay="true" autoplaySpeed={3000} className="slider">
+        <Carousel autoplay="true" autoplaySpeed={1000} className="slider">
       <div className="pic-slider">
         <h3>01. Planet earth is beautiful</h3>
         <img src={planet} alt="not faund" className="planet"/>

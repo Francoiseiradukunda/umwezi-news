@@ -7,9 +7,11 @@ import tree from "../assets/imagee/tree.png";
 import soil from "../assets/imagee/soil.png";
 import acid from "../assets/imagee/acid.png"
 import Button from "../component/button";
+import Header from "../component/header";
 function Effect(){
 return(
     <>
+    <Header/>
     <div className="effect-container">
         <div className="hed-cont">
 <h1>EFFECT OF ENVIRONMENTAL DENGERING</h1>
